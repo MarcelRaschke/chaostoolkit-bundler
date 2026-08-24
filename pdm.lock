@@ -180,7 +180,7 @@ files = [
 
 [[package]]
 name = "azure-mgmt-compute"
-version = "38.2.0"
+version = "38.3.0"
 requires_python = ">=3.10"
 summary = "Microsoft Azure Compute Management Client Library for Python"
 groups = ["chaostoolkit"]
@@ -191,8 +191,8 @@ dependencies = [
     "typing-extensions>=4.6.0",
 ]
 files = [
-    {file = "azure_mgmt_compute-38.2.0-py3-none-any.whl", hash = "sha256:307e6dbc2d1b1dd4c891d68a0eca1136e5e560ba143cb55e433d7386bdf68c41"},
-    {file = "azure_mgmt_compute-38.2.0.tar.gz", hash = "sha256:5d245a7d86d62ea58d0e3ea93ea9da7e8aba8849f937d8d4965c714ca3f43bb3"},
+    {file = "azure_mgmt_compute-38.3.0-py3-none-any.whl", hash = "sha256:2349f0a88b2be9d77f1449db65dcdf7c3c11141c91bc355b29060531779396f6"},
+    {file = "azure_mgmt_compute-38.3.0.tar.gz", hash = "sha256:2310e608f78fb3a4d38be206ec25ff07d67b1c9236fd4568f857af674cb1773a"},
 ]
 
 [[package]]
@@ -246,7 +246,7 @@ files = [
 
 [[package]]
 name = "azure-mgmt-network"
-version = "31.0.1"
+version = "32.0.0"
 requires_python = ">=3.10"
 summary = "Microsoft Azure Network Management Client Library for Python"
 groups = ["chaostoolkit"]
@@ -257,8 +257,8 @@ dependencies = [
     "typing-extensions>=4.6.0",
 ]
 files = [
-    {file = "azure_mgmt_network-31.0.1-py3-none-any.whl", hash = "sha256:cb36bff1a08237211093b0c3b900cadfd344d08d4a437d526c1239fee3331d0c"},
-    {file = "azure_mgmt_network-31.0.1.tar.gz", hash = "sha256:2112f720eedca76173be4d47acb8bc58af16a90debc7b601bf11b37faaaed137"},
+    {file = "azure_mgmt_network-32.0.0-py3-none-any.whl", hash = "sha256:915a6465edfb3b5c30a44027ed92851173d07054682682d0b362fbe9e5c78697"},
+    {file = "azure_mgmt_network-32.0.0.tar.gz", hash = "sha256:cd5707de7bac945c5407047cd764e64cc4b4ce8f51d1f4fe32bfc204d9229093"},
 ]
 
 [[package]]
@@ -331,24 +331,24 @@ files = [
 
 [[package]]
 name = "boto3"
-version = "1.43.72"
+version = "1.43.78"
 requires_python = ">=3.10"
 summary = "The AWS SDK for Python"
 groups = ["chaostoolkit"]
 marker = "python_version == \"3.11\""
 dependencies = [
-    "botocore<1.44.0,>=1.43.72",
+    "botocore<1.44.0,>=1.43.78",
     "jmespath<2.0.0,>=0.7.1",
     "s3transfer<0.20.0,>=0.19.0",
 ]
 files = [
-    {file = "boto3-1.43.72-py3-none-any.whl", hash = "sha256:f1bbbad5ed8d8a8c64edb0cd092dc443c95a85623b2ac88b6f6d633717605f00"},
-    {file = "boto3-1.43.72.tar.gz", hash = "sha256:6280ce03cc85e9110fd9fb7e2fbf11eae0b1177cb041a0d69aa88edc9d178cf9"},
+    {file = "boto3-1.43.78-py3-none-any.whl", hash = "sha256:893f06a171469618e17de78dc927aca6e74fcf45a70d2c5918e9ac9919e96cc9"},
+    {file = "boto3-1.43.78.tar.gz", hash = "sha256:2fa59116e298171ef59e7600a8be6c01177faef8af4b9a4314b7a57a04009ada"},
 ]
 
 [[package]]
 name = "botocore"
-version = "1.43.72"
+version = "1.43.78"
 requires_python = ">=3.10"
 summary = "Low-level, data-driven core of boto 3."
 groups = ["chaostoolkit"]
@@ -359,8 +359,8 @@ dependencies = [
     "urllib3!=2.2.0,<3,>=1.25.4",
 ]
 files = [
-    {file = "botocore-1.43.72-py3-none-any.whl", hash = "sha256:de5a1bcf8d7602c6cefc15016f15dad82981e339192531f31fa9483e11feea47"},
-    {file = "botocore-1.43.72.tar.gz", hash = "sha256:1b878c69081e8e9d55aa4c0d85683e7b07f0e274a5554662f9507a46641be3d2"},
+    {file = "botocore-1.43.78-py3-none-any.whl", hash = "sha256:ddd020493235e264b3bd12606f239a3d3b2dd7cfb1d25a0691061183c290c228"},
+    {file = "botocore-1.43.78.tar.gz", hash = "sha256:e8238d22c1e1342025d75d2e33d154a375e7caad0fc67f77d77faa2d82668b94"},
 ]
 
 [[package]]
@@ -936,8 +936,8 @@ files = [
 
 [[package]]
 name = "google-api-python-client"
-version = "2.198.0"
-requires_python = ">=3.7"
+version = "2.199.0"
+requires_python = ">=3.10"
 summary = "Google API Client Library for Python"
 groups = ["chaostoolkit"]
 marker = "python_version == \"3.11\""
@@ -949,8 +949,8 @@ dependencies = [
     "uritemplate<5,>=3.0.1",
 ]
 files = [
-    {file = "google_api_python_client-2.198.0-py3-none-any.whl", hash = "sha256:fabac935474e817da5e662ff61bf7139439d6f92b32d332a7318a2d45931e03e"},
-    {file = "google_api_python_client-2.198.0.tar.gz", hash = "sha256:dfe3e16fb241af6e9c460a33f65085b3450e05cea09364f6b5d8997fb7e43e2a"},
+    {file = "google_api_python_client-2.199.0-py3-none-any.whl", hash = "sha256:1d2fa0e7f9d68f063b1a9ff7ed290d6e6c93176260487bf3a991e41534ca23a3"},
+    {file = "google_api_python_client-2.199.0.tar.gz", hash = "sha256:8150816e22e01b36aa4b7523cdc1a2d2164e81c4de8a9b338785d7ecb4390ec2"},
 ]
 
 [[package]]
@@ -1470,14 +1470,14 @@ files = [
 
 [[package]]
 name = "idna"
-version = "3.18"
+version = "3.19"
 requires_python = ">=3.9"
 summary = "Internationalized Domain Names in Applications (IDNA)"
 groups = ["default", "chaostoolkit", "extra"]
 marker = "python_version == \"3.11\""
 files = [
-    {file = "idna-3.18-py3-none-any.whl", hash = "sha256:7f952cbe720b688055e3f87de14f5c3e5fdaa8bc3928985c4077ca689de849a2"},
-    {file = "idna-3.18.tar.gz", hash = "sha256:ffb385a7e039654cef1ab9ef32c6fafe283c0c0467bba1d9029738ce4a14a848"},
+    {file = "idna-3.19-py3-none-any.whl", hash = "sha256:815e7be7a7806d54abb586dc943addc79e8b2ee16915059658cbeff4b1b43bf4"},
+    {file = "idna-3.19.tar.gz", hash = "sha256:5e0811a4383b21dc5838069f801c4fb62113b7447663d2530d2bd6e77b49bf15"},
 ]
 
 [[package]]
@@ -1708,7 +1708,7 @@ files = [
 
 [[package]]
 name = "opentelemetry-exporter-gcp-trace"
-version = "1.14.0"
+version = "1.15.0"
 requires_python = ">=3.9"
 summary = "Google Cloud Trace exporter for OpenTelemetry"
 groups = ["chaostoolkit", "extra"]
@@ -1721,8 +1721,8 @@ dependencies = [
     "typing-extensions",
 ]
 files = [
-    {file = "opentelemetry_exporter_gcp_trace-1.14.0-py3-none-any.whl", hash = "sha256:36bc08aa1dea20c53cabf89c5ffddffd766eb20154bb6c7d4deb5283b5bb2e49"},
-    {file = "opentelemetry_exporter_gcp_trace-1.14.0.tar.gz", hash = "sha256:1d9dbfa3e69843ff343ce5fcf622f6d6fcd8c62c02e30dd6ddf5b8fc6d568c08"},
+    {file = "opentelemetry_exporter_gcp_trace-1.15.0-py3-none-any.whl", hash = "sha256:bab0bda41a74c9ece16611da2e1dd442d9d6f45238a734e62fee796e2c3b122c"},
+    {file = "opentelemetry_exporter_gcp_trace-1.15.0.tar.gz", hash = "sha256:70db6b807756c0815dce6af2f230663a07983f73bde0b7302e21f3a241b512cd"},
 ]
 
 [[package]]
@@ -1904,7 +1904,7 @@ files = [
 
 [[package]]
 name = "opentelemetry-propagator-gcp"
-version = "1.14.0"
+version = "1.15.0"
 requires_python = ">=3.9"
 summary = "Google Cloud propagator for OpenTelemetry"
 groups = ["chaostoolkit", "extra"]
@@ -1913,8 +1913,8 @@ dependencies = [
     "opentelemetry-api~=1.0",
 ]
 files = [
-    {file = "opentelemetry_propagator_gcp-1.14.0-py3-none-any.whl", hash = "sha256:a87f9734e2393fef83877efac072da56948a4ad2af66d0966a4d50ad3a5d0d2f"},
-    {file = "opentelemetry_propagator_gcp-1.14.0.tar.gz", hash = "sha256:2d677ec5f0be296a25822a2011b1a5f74ba95c9635b7162f36bd376423b5a943"},
+    {file = "opentelemetry_propagator_gcp-1.15.0-py3-none-any.whl", hash = "sha256:130a6d6b6d75a21e3b4239a115836271a12df9a53342e9d27fde4f9853fb67c0"},
+    {file = "opentelemetry_propagator_gcp-1.15.0.tar.gz", hash = "sha256:b5066851d55be13344985c895ea5f07809226c21de821d864e7ce60602487663"},
 ]
 
 [[package]]
@@ -2153,20 +2153,20 @@ files = [
 
 [[package]]
 name = "protobuf"
-version = "7.35.1"
+version = "7.36.0"
 requires_python = ">=3.10"
 summary = ""
 groups = ["chaostoolkit", "extra"]
 marker = "python_version == \"3.11\""
 files = [
-    {file = "protobuf-7.35.1-cp310-abi3-macosx_10_9_universal2.whl", hash = "sha256:24f857477359a85c0c235261b8ba905fd51b2562f4a64ca1df5473f29850cbf6"},
-    {file = "protobuf-7.35.1-cp310-abi3-manylinux2014_aarch64.whl", hash = "sha256:11d6b0ec246892d85215b0a13ca6e0233cf5284b68f0ac02646427f4ff88a799"},
-    {file = "protobuf-7.35.1-cp310-abi3-manylinux2014_s390x.whl", hash = "sha256:b73f9489a4b8b1c9cb1f8ed951c736392592edb24b9d6819f36d2e10b171d5b4"},
-    {file = "protobuf-7.35.1-cp310-abi3-manylinux2014_x86_64.whl", hash = "sha256:74758715c53d7158fb76caf4f0cfdacc5329a4b1bb994f865d6cf302d413a1c4"},
-    {file = "protobuf-7.35.1-cp310-abi3-win32.whl", hash = "sha256:353652e4efd0bca5b5fc2656abf8307ef351f0cf938c9eba09f0e09c20a25c30"},
-    {file = "protobuf-7.35.1-cp310-abi3-win_amd64.whl", hash = "sha256:230a75ddfc2de4806e56696ce9640c1cdfdb6543b7cfce98d42a4c0a0e7bdb87"},
-    {file = "protobuf-7.35.1-py3-none-any.whl", hash = "sha256:4bc97768d8fe4ad6743c8a19403e314511ed9f6d13205b687e52421c023ac1b9"},
-    {file = "protobuf-7.35.1.tar.gz", hash = "sha256:ce115a26fe0c39a2c29973d914d327e516a6455464489fe3cd1e51a1b354f81a"},
+    {file = "protobuf-7.36.0-cp310-abi3-macosx_10_9_universal2.whl", hash = "sha256:9103532dffd80c6fab7e50c65a31007680a06eb57537d437bb1b35812c138a37"},
+    {file = "protobuf-7.36.0-cp310-abi3-manylinux2014_aarch64.whl", hash = "sha256:bf94a5917c71058262de683669bc0a797a7669d3de71f0b36d058e3194f47b44"},
+    {file = "protobuf-7.36.0-cp310-abi3-manylinux2014_s390x.whl", hash = "sha256:3297e60abdff301e5f74393d87f6cc59dacab5f024a89548a6e8de1d26576b16"},
+    {file = "protobuf-7.36.0-cp310-abi3-manylinux2014_x86_64.whl", hash = "sha256:70f5ec8eb0da81a44360c0dc0beac99a0d78071d21956a7076bae8bd2051841b"},
+    {file = "protobuf-7.36.0-cp310-abi3-win32.whl", hash = "sha256:7326fd717bdc419162a735938d89d4032332bcc3408804012b24ff3a37086071"},
+    {file = "protobuf-7.36.0-cp310-abi3-win_amd64.whl", hash = "sha256:1781cc1de61249b750848029bca452c0a8b7e990080316b9bbc2518b2117b488"},
+    {file = "protobuf-7.36.0-py3-none-any.whl", hash = "sha256:53374d53fc29a67f7dbbf0ade47d7526a0f0137bf0f9c90e48d8a60790ef748c"},
+    {file = "protobuf-7.36.0.tar.gz", hash = "sha256:e8e09cb0d794c6687926fa558a8a6e72aa10edb997d5ca61da0765f12a3e00ea"},
 ]
 
 [[package]]
@@ -2222,7 +2222,7 @@ files = [
 
 [[package]]
 name = "pyinstaller"
-version = "6.22.1"
+version = "6.22.2"
 requires_python = "<3.16,>=3.8"
 summary = "PyInstaller bundles a Python application and all its dependencies into a single package."
 groups = ["default"]
@@ -2238,18 +2238,18 @@ dependencies = [
     "setuptools>=42.0.0",
 ]
 files = [
-    {file = "pyinstaller-6.22.1-py3-none-macosx_10_13_universal2.whl", hash = "sha256:d519a5549bf560407a9cffa8547f278e79c1093dc1cade6d9658c67b650d66c4"},
-    {file = "pyinstaller-6.22.1-py3-none-manylinux2014_aarch64.whl", hash = "sha256:0f257d6329d90def6b96f3ad9b601f4e10e549017d2ad09e730f4a9741b42138"},
-    {file = "pyinstaller-6.22.1-py3-none-manylinux2014_i686.whl", hash = "sha256:1df884760a6efc4cc9bdcd48899f1382c072ab499bb16ed0b03606f8f10380c6"},
-    {file = "pyinstaller-6.22.1-py3-none-manylinux2014_ppc64le.whl", hash = "sha256:bc964609e73f32f79b4c967d1c29a05f913629fcf54b3752ec6ec82bf17cffdd"},
-    {file = "pyinstaller-6.22.1-py3-none-manylinux2014_s390x.whl", hash = "sha256:3b654721a9fa13abdd8a3a8e266debf750a6f50115d17addc54e3269dc944e75"},
-    {file = "pyinstaller-6.22.1-py3-none-manylinux2014_x86_64.whl", hash = "sha256:10d009ac9ddf17b57dbfe22a453363a02be4cb0d5bd8a119ba59ef530b936296"},
-    {file = "pyinstaller-6.22.1-py3-none-musllinux_1_1_aarch64.whl", hash = "sha256:ff3c51c1a3b793d1917f75d0f5f31ef8bd889c0accc8478d604bbcc363fcb74b"},
-    {file = "pyinstaller-6.22.1-py3-none-musllinux_1_1_x86_64.whl", hash = "sha256:bf5f4634b18add9381caa73bd1656a1f0736839aa41ca750fbd511116d5ae2ca"},
-    {file = "pyinstaller-6.22.1-py3-none-win32.whl", hash = "sha256:c5d7859b59c17f5c28973eb683e2236abb7a6eed1a7f354dc7f65ee3a7dff8ab"},
-    {file = "pyinstaller-6.22.1-py3-none-win_amd64.whl", hash = "sha256:9fe5d028023073b63c3e396e145c68a9c3382ab59889c749c4c248126d313945"},
-    {file = "pyinstaller-6.22.1-py3-none-win_arm64.whl", hash = "sha256:bb7a405ef0fbea9b20b7312484d2766d2aa157026a0406a8e7ce63a573748eae"},
-    {file = "pyinstaller-6.22.1.tar.gz", hash = "sha256:4e7ed495fccb9974d47cf72ef8cffc92afa05d60bc265c5585a68f3d229ca8d1"},
+    {file = "pyinstaller-6.22.2-py3-none-macosx_10_13_universal2.whl", hash = "sha256:ebd1b1ca932d7cf25d7366ce691aaf79a5ff9425811ed7328b5116e4471b6d6d"},
+    {file = "pyinstaller-6.22.2-py3-none-manylinux2014_aarch64.whl", hash = "sha256:f5ccb847451df4207bce18bf53a57b124c9bb4e7e4bad08c5ecc627bcf00b28c"},
+    {file = "pyinstaller-6.22.2-py3-none-manylinux2014_i686.whl", hash = "sha256:becb47ad78272bede87acf2ed830d7545a8f65ab11d06a68fe2b99ba1afaac6d"},
+    {file = "pyinstaller-6.22.2-py3-none-manylinux2014_ppc64le.whl", hash = "sha256:06d7b3827a8049db4a2d47e3ec4ae2f69a1041577d8833b8f169745cde573ab4"},
+    {file = "pyinstaller-6.22.2-py3-none-manylinux2014_s390x.whl", hash = "sha256:7bee432404eca5dc3ef37c36811c266561b03988f6d3e70ab0fa5352dd5de9e4"},
+    {file = "pyinstaller-6.22.2-py3-none-manylinux2014_x86_64.whl", hash = "sha256:9622686ecc5d5fa492fe6cde29d47df9dd41138cff8177be9f901ca3260f2096"},
+    {file = "pyinstaller-6.22.2-py3-none-musllinux_1_1_aarch64.whl", hash = "sha256:0260eaad6be3f6fbc1affffe6dc7b8e5b636dbca51b463224daba971610b6fc1"},
+    {file = "pyinstaller-6.22.2-py3-none-musllinux_1_1_x86_64.whl", hash = "sha256:8c2c4b14caad38c1f3df8e9bf5276fc265e27fe8b4180cab4a37864288427bc0"},
+    {file = "pyinstaller-6.22.2-py3-none-win32.whl", hash = "sha256:9a078877caa3920558a3242d0a7019fe5b825cff4b65ed380c7d1e1bd200ddd9"},
+    {file = "pyinstaller-6.22.2-py3-none-win_amd64.whl", hash = "sha256:9b990fa6bbe143572f06644a984ad0d7aa2e2ccc6929d4916031343a5888e9a7"},
+    {file = "pyinstaller-6.22.2-py3-none-win_arm64.whl", hash = "sha256:afb6f9a95d19b6dcd3a7decc40d9adb6ba9c4f8802ddd6c972dfb552953f384e"},
+    {file = "pyinstaller-6.22.2.tar.gz", hash = "sha256:89b65a3ad07d9dd5832253e37bc45f31872d10d7f9d5c9fd0fdd6088a83829dd"},
 ]
 
 [[package]]
